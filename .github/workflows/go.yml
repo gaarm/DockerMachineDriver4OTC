@@ -35,8 +35,7 @@ jobs:
 
     - name: Move
       run: mv /home/runner/work/DockerMachineDriver4OTC/DockerMachineDriver4OTC /tmp
-    - name: Test
-      run: go test -v .
+
     - name: Upload build
       uses: actions/upload-artifact@v1
       with:
